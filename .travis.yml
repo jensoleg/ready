@@ -4,6 +4,7 @@ node_js:
 before_script:
   - 'npm install -g bower grunt-cli'
   - 'bower install'
+  - 'chmod +x node_modules/grunt/lib/grunt'
 deploy:
   provider: heroku
   app: readyapp
