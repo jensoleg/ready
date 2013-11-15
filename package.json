@@ -47,6 +47,6 @@
   },
   "scripts": {
     "test": "grunt test",
-    "postinstall": "./node_modules/.bin/grunt build"
+    "postinstall": "grunt build"
   }
 }
