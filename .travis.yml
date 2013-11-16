@@ -4,8 +4,8 @@ node_js:
 before_script:
   - 'npm install -g bower grunt-cli'
   - 'bower install'
+  - 'grunt build'
 deploy:
   provider: heroku
   app: readyapp
   api_key: "35efbe8ca8597471b7aa0b2c23fc9458b730f855"
-  run: "grunt build"
