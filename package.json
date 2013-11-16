@@ -47,6 +47,5 @@
   },
   "scripts": {
     "test": "grunt test",
-    "postinstall": "grunt build"
   }
 }
