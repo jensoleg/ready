@@ -9,5 +9,6 @@ deploy:
   provider: heroku
   app: readyapp
   api_key: "35efbe8ca8597471b7aa0b2c23fc9458b730f855"
-  run: npm install -g grunt-cli,
-  "grunt build"
+  run:
+    - "npm install -g grunt-cli"
+    - "grunt build"
